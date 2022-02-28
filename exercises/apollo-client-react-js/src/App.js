@@ -1,13 +1,23 @@
-import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-
-// Componentes
-//import CrearApolloClient from './views/1-basico/crear-apollo-client/index'
 
 function App() {
   return (
     <div className="App">
-      <h2>Hola soy Apollo client</h2>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
